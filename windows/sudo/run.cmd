@@ -1,0 +1,1 @@
+sudo.vbs cmd "/k cd /d %cd%"

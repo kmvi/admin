@@ -1,0 +1,3 @@
+csvde -f domainUsers.csv -s mydomain.local -c "DC=mydomain,DC=local" "DC=mydomain,DC=local" -r (objectClass=User) -m -b user mydomain.local mypwd
+csvde -f domainUnits.csv -s mydomain.local -c "DC=mydomain,DC=local" "DC=mydomain,DC=local" -r (objectClass=OrganizationalUnit) -o "whenCreated, whenChanged, objectGUID" -n -m -b user mydomain.local mypwd
+csvde -f domainGroup.csv -s mydomain.local -c "DC=mydomain,DC=local" "DC=mydomain,DC=local" -r (objectClass=Group) -o "whenCreated, whenChanged, objectGUID" -n -m -b user mydomain.local mypwd

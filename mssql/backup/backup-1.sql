@@ -1,0 +1,9 @@
+DECLARE @FileName NVARCHAR(256);
+SELECT @FileName = N'\\srv\backup\db_' + CONVERT(NCHAR(8), GETDATE(), 112) + N'.bak';
+
+BACKUP DATABASE [db]
+TO  DISK = @FileName
+WITH NOFORMAT, NOINIT,
+NAME = N'Full db backup',
+SKIP, NOREWIND, NOUNLOAD,  STATS = 10
+GO

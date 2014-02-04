@@ -1,0 +1,1 @@
+csvde -i -k -f domainUsers.csv -s domain.local -b user domain.local mypwdcsvde -i -k -f domainUnits.csv -s domain.local -b user domain.local mypwdcsvde -i -k -f domainGroup.csv -s domain.local -b user domain.local mypwd

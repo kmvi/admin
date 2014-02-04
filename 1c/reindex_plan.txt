@@ -1,0 +1,1 @@
+[General]Output=d:\1s_bases\reindex.logQuit=1CheckAndRepair=1UnloadData=0SaveData=0AutoExchange=0[CheckAndRepair]Repair=0PhysicalIntegrity=0Reindex=1LogicalIntegrity=0RecalcSecondaries=0RecalcTotals=0Pack=0 

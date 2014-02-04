@@ -1,0 +1,1 @@
+@echo off"C:\Program Files\1Cv77\BIN\1cv7.exe" config /D"D:\1s_bases\base" /Nuser /Ppassword /@"D:\1s_bases\reindex_plan.txt" 
