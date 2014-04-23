@@ -1,0 +1,1 @@
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v vnc /d "cmd /c \"cd /d \"%cd%\" ^&^& \"%cd%\run.cmd\"\""
