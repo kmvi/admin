@@ -1,0 +1,1 @@
+mode con: rate=32 delay=1
